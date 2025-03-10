@@ -14,8 +14,8 @@ Explore my Github Portfolio to discover a range of cybersecurity projects. I am 
 
 **01_Introduction** 
 
--About Me.md: A brief overview of my career, skills, and aspirations in cybersecurity.
--Resume.pdf: My most recent resume detailing my professional experience and education.
+- About Me.md: A brief overview of my career, skills, and aspirations in cybersecurity.
+- Resume.pdf: My most recent resume detailing my professional experience and education.
 
 **02_Fundamentals**
 - Networking_Basics.md: A guide to the basics of networking, essential for any cybersecurity role.
@@ -84,6 +84,6 @@ Explore my Github Portfolio to discover a range of cybersecurity projects. I am 
 
 ## License 
 
-This repository is licensed under the MIT License. See LICENSE(./LICENSE.md) file for more details.
+This repository is licensed under the MIT License. See [LICENSE](./LICENSE.md) file for more details.
 
 
