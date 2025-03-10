@@ -5,7 +5,7 @@
 Explore my Github Portfolio to discover a range of cybersecurity projects. I am passionate about utilizing technology to solve engaging, real-world problems. 
 
 
-### Cybersecurity Portfolio Overview
+### 🔥Cybersecurity Portfolio Overview🔥
 
 **Description**: This comprehensive portfolio showcases a range of cybersecurity projects developed to demonstrate my skills and experience in securing cloud environments, vulnerability management, and incident repsonse. The projects cover multiple aspects of cybersecurity, from threat detection to compliance and governance, providing real-world soltuions to various security challenges.
 
@@ -31,6 +31,7 @@ Explore my Github Portfolio to discover a range of cybersecurity projects. I am 
 - MITRE_ATTACK_Framework.md: Overview of the MITRE ATT&CK Framework used to map out and respond to cybersecurity attacks.
 - Malware_Analysis.md: An in-depth guide to analyzing and mitigating malware threats.
 - Common_Vulnerabilities.md: Exploration of common vulnerabilities found in software, networks, and systems.
+
 **04_Security_Tools**
 - Wireshark.md: How to use Wireshark for network traffic analysis and troubleshooting.
 - Nmap.md: Using Nmap for network discovery and vulnerability scanning.
