@@ -1,18 +1,18 @@
 ## Iliya Zang's Cybersecurity Portfolio  🚨🔒
 
-*Discover My Journey*🔍💫
+### Discover My Journey*🔍💫
 
 Explore my Github Portfolio to discover a range of cybersecurity projects. I am passionate about utilizing technology to solve engaging, real-world problems. 
 
 
-*Cybersecurity Portfolio*
+### Cybersecurity Portfolio Overview
 
 **Description**: This comprehensive portfolio showcases a range of cybersecurity projects developed to demonstrate my skills and experience in securing cloud environments, vulnerability management, and incident repsonse. The projects cover multiple aspects of cybersecurity, from threat detection to compliance and governance, providing real-world soltuions to various security challenges.
 
 
-*Portfolio Structure:*
+### Portfolio Structure:
 
-**01_Introduction**
+**01_Introduction** 
 
 -About Me.md: A brief overview of my career, skills, and aspirations in cybersecurity.
 -Resume.pdf: My most recent resume detailing my professional experience and education.
