@@ -7,8 +7,14 @@ Hi there! My name is Iliya. I'm an aspiring **Cybersecurity Analyst** with **Clo
 
 ## 💻 Professional Experience
 My Background Includes: 
-- **Cloud Infrastructure** - Building and managing AWS environments using services like EC2, S3, IAM, etc.
-- **Automation & Scripting** - Using **Python** and **Bash** scripts to improve efficiency, automate security checks, and manage cloud resources.
+- ☁️ **Cloud Infrastructure** - Building and managing AWS environments using Cloudformation, Terraform, and ansible. Alongside working with other AWS services like EC2, S3, IAM, etc.
+
+- 🛠️ **Automation & Scripting** - Using **Python** and **Bash** scripts to improve efficiency, automate security checks, and manage cloud resources.
+
+- 🚀 **CI/CD Pipelines** - Setting up and managing **Jenkins** pipelines for continuous integration adn deployment, ensuring faster and more reliable releases.
+
+- 🐳 **Containerization** - Utilizing Docker to Package applications and manage containerized environments for consitent deployments across environments.
+
 
 
 ## Career Goals 
