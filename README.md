@@ -10,7 +10,7 @@ Explore my Github Portfolio to discover a range of cybersecurity projects. I am 
 **Description**: This comprehensive portfolio showcases a range of cybersecurity projects developed to demonstrate my skills and experience in securing cloud environments, vulnerability management, and incident repsonse. The projects cover multiple aspects of cybersecurity, from threat detection to compliance and governance, providing real-world soltuions to various security challenges.
 
 
-### Portfolio Structure:
+## Portfolio Structure:
 
 **01_Introduction** 
 
