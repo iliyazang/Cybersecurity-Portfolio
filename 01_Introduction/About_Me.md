@@ -1,4 +1,4 @@
-# About Me  👨‍💻
+# About Me  🔒
 
 
 Hi there! My name is Iliya. I'm an aspiring **Cybersecurity Analyst** with **Cloud Engineering experience** as a **Junior Cloud Engineer** and a background in **Finance**. My diverse experience allows me to approach security challenges with both technical expertise and a strong understanding of business risks. 
