@@ -26,8 +26,7 @@ Understanding file structure and permissions is crucial for investigating securi
 - `cd` — Change directory
 - `pwd` — Display the current directory path
 
-**Example: Creating and Managing Directories with `mkdir` *
-* 
+**Example: Creating and Managing Directories with `mkdir`**
 Suppose you're organizing log files for a security audit. Here's how you can create a dedicated folder for investigation data:
 
 ```bash
@@ -38,7 +37,7 @@ cd security_audit
 pwd 
  
 ```
-Output: `/home/user/security_audit
+Output: `/home/user/security_audit`
 
 Here's a visual representation in action: 
 
