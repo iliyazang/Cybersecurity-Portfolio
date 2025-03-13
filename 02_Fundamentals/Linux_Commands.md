@@ -21,10 +21,16 @@ Understanding file structure and permissions is crucial for investigating securi
 - `cd` — Change directory
 - `pwd` — Display the current directory path
 
-**Example: Checking Configuration Files for Tampering**
+**Example: Working with Mkdir to create new direcotories**
+`mkdir [directory name]`
 ```bash
-ls -la /etc
-``` 
+# creating a directory named testfolder
+
+mkdir testfolder 
+ 
+```
+Here's Mkdir in action: 
+ 
 ## File Inspection and Manipulation 
 
 
