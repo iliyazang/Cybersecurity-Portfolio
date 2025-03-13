@@ -11,8 +11,20 @@ The Categories are going to include:
 Please feel free to skip to a specific section.
 
 
-## File and Directory Management
+## 1. File and Directory Management
+Understanding file structure and permissions is crucial for investigating security breaches. So today we are going to learn how to work with files. 
 
+### Key Commands
+- `ls` — List files and directories
+- `rm` — Remove files or directories
+- `mkdir` / `rmdir` — Create or delete directories
+- `cd` — Change directory
+- `pwd` — Display the current directory path
+
+**Example: Checking Configuration Files for Tampering**
+```bash
+ls -la /etc
+``` 
 ## File Inspection and Manipulation 
 
 
