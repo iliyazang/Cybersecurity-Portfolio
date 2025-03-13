@@ -31,7 +31,6 @@ Suppose you're organizing log files for a security audit. Here's how you can cre
 
 ```bash
 # creating a directory for security audits
-
 mkdir security_audit 
 cd security_audit 
 pwd 
