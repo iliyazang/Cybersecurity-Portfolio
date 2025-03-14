@@ -99,7 +99,7 @@ Alternatively, you can modify permissions using symbolic notation:
 
 - o+x — Add execute permission for others
 
-**Alternatively, you can modify permissions using symbolic notation:
+**Alternatively, you can modify permissions using symbolic notation:**
 
 u+x — Add execute permission for the user
 
