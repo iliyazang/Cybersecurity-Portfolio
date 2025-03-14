@@ -91,13 +91,7 @@ For example, to grant the owner read and write permissions (4 + 2 = 6) and no pe
 ```bash 
 chmod 600 /home/user/security_audit/sshd_config.bak
 ```
-Alternatively, you can modify permissions using symbolic notation:
 
-- u+x — Add execute permission for the user
-
-- g+x — Add execute permission for the group
-
-- o+x — Add execute permission for others
 
 **Alternatively, you can modify permissions using symbolic notation:**
 
