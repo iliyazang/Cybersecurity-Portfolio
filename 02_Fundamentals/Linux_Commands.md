@@ -133,7 +133,7 @@ You can even create multiple files at a time using touch. `touch` is useful when
 touch file_1.txt file_2.txt file_3.txt
 ``` 
 Output: 
-[Creating files with the touch command](Cybersecurity-portfolio/02_Fundamentals/images)
+[Creating files with the touch command](02_Fundamentals/images)
 By understanding these foundational commands, you'll streamline your investigations and improve file organization -- critical skills for cybersecurity analysis.  
  
 ## File Inspection and Manipulation 
