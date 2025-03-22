@@ -132,17 +132,110 @@ You can even create multiple files at a time using touch. `touch` is useful when
 ```bash 
 touch file_1.txt file_2.txt file_3.txt
 ``` 
-Output: 
+Output:
+
+
 ![Creating files with the touch command](./images/screenshot_1.png)
+
 By understanding these foundational commands, you'll streamline your investigations and improve file organization -- critical skills for cybersecurity analysis.  
  
-## File Inspection and Manipulation 
+## 2. File Inspection and Manipulation 
+**Key Commands** 
+-`cat` - Display file contents. 
+-`less/more`- View large files in a scrollable format.
+-`head/tail` - Display the first of last lines of a file.
+-`grep` - Search for patterns in files. 
 
+**Example: Using `cat` to display file contents
 
+```bash
+cat /var/log/syslog
+```
+**Example: Using `less` for reviewing system logs.**
 
+```bash
+less /var/log/syslog
+```
+- We can examine system activity without opening the entire file.
 
+**Example: Using Grep for Log analysis**
+```bash
+grep 'Failed Password' Var/log/auth.log
+```
+- We can search logs for brute-force attack patterns.
 
 ## Networking and Connectivity 
 
 
 ## Process and System Monitoring 
+
+
+## 3. Networking and Connectivity
+
+**Key Commands**
+
+ifconfig — Display network interface details.
+
+ping — Test network connectivity.
+
+netstat — Display active network connections.
+
+curl — Transfer data from URLs.
+
+wget — Download files from the web.
+
+**Example: Checking Network Interface Details with `ifconfig`**
+
+```bash 
+ifconfig eth0
+```
+**Example: Testing Connectivity with `ping`
+```bash
+ping 8.8.8.8
+```
+
+**Example: Using `curl` to test web connectivity**
+```bash
+curl http://example.com
+```
+
+**Example: Downloading a file with `wget`**
+```bash 
+wget http://example.com/samplefile.txt
+```
+
+
+### 4. Process and System Monitoring 
+
+**Key Commands**
+`ps` - Display current running processes.
+`top/htop` - Real-time system monitoring. 
+`kill` - Terminate processes. 
+`uptime` - Show system uptime.
+`df/du` - Display disk space usage.
+
+**Example: Viewing Running Processes with `ps`**
+```bash
+ps aux | grep apache2
+```
+**Example: Monitoring System Performance with `top`
+``` bash
+top
+```
+
+**Example: Terminating a process wwith `kill`
+```bash 
+kill -9 <PID>
+```
+Try these few commands in your spare time. Mastering these essential Linux Commands is crucial for cybersecurity professionals, especially when
+investigating breaches, analyzing threats, or responsing to incidents. By applying these commands in real-world scenarios, you'll develop the skills to manage files, inspect data, troubleshoot network issues, and monitor system processes effectively. Continuous practice will enchance your confidence in navigating Linux envrionments securely and efficiently.
+
+---
+### Wargames 
+Lets improve our skills through practice. This set of wargames is offered by OverTheWire.![OverTheWire](http://overthewire.org/wargames/) 
+
+See how many levels you can beat!. 
+
+
+Happy Learninng!
+
