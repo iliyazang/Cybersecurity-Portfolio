@@ -208,11 +208,11 @@ wget http://example.com/samplefile.txt
 ### 4. Process and System Monitoring 
 
 **Key Commands**
-`ps` - Display current running processes.
-`top/htop` - Real-time system monitoring. 
-`kill` - Terminate processes. 
-`uptime` - Show system uptime.
-`df/du` - Display disk space usage.
+- `ps` - Display current running processes.
+- `top/htop` - Real-time system monitoring. 
+- `kill` - Terminate processes. 
+- `uptime` - Show system uptime.
+- `df/du` - Display disk space usage.
 
 **Example: Viewing Running Processes with `ps`**
 ```bash
@@ -232,7 +232,7 @@ investigating breaches, analyzing threats, or responsing to incidents. By applyi
 
 ---
 ### Wargames 
-Lets improve our skills through practice. This set of wargames is offered by OverTheWire.![OverTheWire](http://overthewire.org/wargames/) 
+Lets improve our skills through practice. This set of wargames is offered by OverTheWire. Play as a bandit and wreck havoc!.[OverTheWire](http://overthewire.org/wargames/Bandit) 
 
 See how many levels you can beat!. 
 
