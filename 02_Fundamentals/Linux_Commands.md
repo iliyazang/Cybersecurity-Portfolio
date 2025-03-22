@@ -58,7 +58,7 @@ rm security_audit_000
 rmdir legacy_audit
 ``` 
 
-**Example: Removing Directories `mv`**
+**Example: Moving directories with  `mv`**
 Suppose you need to move a log file to the security_audit directory for investigation: 
 ```bash 
 # Moving a log file to the security_audit directory
@@ -110,8 +110,30 @@ To assign ownership of a file to the root user:
 ```bash
 chown root:root /home/user/security_audit/sshd_config.bak
 ```
+For change file ownership (`chown`), in the example above we have `root:root`. The root before the colon signifies the owner and the root after the colon signifies the group. 
+But what if I wanted to change one or the other? Pretty simple! 
+For the owner?: 
+```bash 
+#specifying only the owner and not the group. 
+# This would change the owner of the file and leave the group as its current default value. 
+chown root: file_1.bat
+```
+For the Group? you guessed it! Just do the opposite. 
+
+```bash 
+#leave the owner as default but change the value of group to root for file_1.bat
+chown :root file_1.bat
+``` 
 
 **Example: Creating empty files with `touch`**
+You can use the `touch` command to create an empty file.
+You can even create multiple files at a time using touch. `touch` is useful when you want to create a file without modifying it right away. Lets create multiple files using the `touch` command. 
+
+```bash 
+touch file_1.txt file_2.txt file_3.txt
+``` 
+Output: 
+![Creating files with the touch command](./images/screenshot_1.png)
 By understanding these foundational commands, you'll streamline your investigations and improve file organization -- critical skills for cybersecurity analysis.  
  
 ## File Inspection and Manipulation 
