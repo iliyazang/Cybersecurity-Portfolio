@@ -1,5 +1,6 @@
 # Linux for Cybersecurity: Mastering the Command Line
 
+
 Linux is a powerful tool in the cybersecurity arsenal, offering unmatched control over security systems, incident response, and threat analysis. Whether you're a beginner or an experienced professional, mastering essential Linux commands is key to protecting systems and investigating breaches.
 
 This guide introduces key Linux commands grouped by category, with practical examples to help you build hands-on skills that are essential for cybersecurity professionals and enthusiasts alike.
