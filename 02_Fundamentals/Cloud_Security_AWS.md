@@ -5,14 +5,14 @@
 
  ## Overview
  We will cover:
- - [**Identity and Access Management**](#identity-and-acess-management)
- - [**Network security**](#network-security)
- - [**Encryption and Data Protection**](#encryption-and-data-protection)
-   - Data in Transit
-   - Data at Rest
-- [**Incident Response and Recovery**](#incident-response-and-recovery)
-- [**Continuous Monitoring**](#continuous-monitoring)
-- [**Governance & Compliance**](#governance-&-compliance)
+ - [**Identity and Access Management**](#1identity-and-acess-management)
+ - [**Network security**](#2network-security)
+ - [**Encryption and Data Protection**](#3encryption-and-data-protection)
+   - Data in Transit(#data-in-transit)
+   - Data at Rest(#data-at-rest)
+- [**Incident Response and Recovery**](#4incident-response-and-recovery)
+- [**Continuous Monitoring**](#5continuous-monitoring)
+- [**Governance & Compliance**](#6governance-&-compliance)
 
 Please feel free to skip to any section that interests you.
 
@@ -53,8 +53,10 @@ AWS Firewall Manager offers several key befits:
 Data sometimes needs to pass from one source to another and always usually has to exchange hands. Even though we trust the party the data is being delivered to, we still have to protect ourselves from an untrusted party listening or intercepting relevant data through illegal and unacceptable means. That is why we must always protect our data to the best of our ability.
 We can encrypt our data in AWS through the following methods:
 
+<a name='data-in-rest'></a>
 - **Utilizing AWS KMS**: AWS Key Management Service (KMS) is essential for encrypting data at rest. With KMS, you can control when and by whom data is decrypted, as well as under which conditions, as it is passed to and from your applications and AWS services. KMS policies can be created to define who has access to encrypt or decrypt data, with these policies being controlled independently by the owner. The isolation model in KMS provides an additional layer of logical separation, allowing you to apply strict controls across different AWS environments.
 
+<a name='data-in-transit'></a>
 - **TLS Certificate**:  
 One of the most commonly used methods to secure data in transit is through **Transport Layer Security (TLS)**. TLS ensures that data transmitted between clients and servers is encrypted, protecting it from eavesdropping, tampering, and forgery during transmission. AWS provides multiple services that allow you to implement TLS encryption for data in transit.
 
