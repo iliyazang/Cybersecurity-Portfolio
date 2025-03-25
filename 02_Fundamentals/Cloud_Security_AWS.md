@@ -1,9 +1,9 @@
 **Securing Cloud Environments using AWS**
 
-##Introduction
+## Introduction
  In today's digital landscape, many companies are migrating their infrastructure from on-premise setups to the cloud, or adopting hybrid solutions to optimize their operations. However, with this shift comes a crucial question: how do we protect sensitive data now stored in the cloud from potential threats? As cyber threats continue to evolve, ensuring the confidentiality, integrity, and availability of data within AWS requires a deep understanding of security best practices. In this article, I'll guide you through the essential steps to secure your AWS environment and safeguard your organization’s data.
 
- ##Overview
+ ## Overview
  We will cover:
  - **Identity and Access Management**
  - **Network security**
