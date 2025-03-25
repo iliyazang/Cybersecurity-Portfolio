@@ -68,7 +68,7 @@ One of the most commonly used methods to secure data in transit is through **Tra
 
   - **API Gateway**: **Amazon API Gateway** allows you to enforce **HTTPS** for secure communication between clients and your API endpoints. This ensures that sensitive data transmitted through API requests and responses remains encrypted in transit.
 
-  ###Best Practices for Encryption in Transit:
+### Best Practices for Encryption in Transit:
   - **Enforce HTTPS Everywhere**: Ensure that all web traffic uses HTTPS instead of HTTP.
   - **Use Strong SSL/TLS Configurations**: Always configure your services to use the latest version of **TLS**.
   - **Monitor for vulnerabilities**: Regularly audit your security setup for vulnerabilities related to  SSL/TLS configurations and ensure that the certificates are valid and not expired.
